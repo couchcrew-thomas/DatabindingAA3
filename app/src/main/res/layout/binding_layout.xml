@@ -36,7 +36,7 @@
         <com.example.databinding_aa.databindingaa.BindingViewAA_
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:data="@{data}"/>
+            app:data="@{(com.example.databinding_aa.databindingaa.BindingData)data}"/>
 
     </LinearLayout>
 </layout>
